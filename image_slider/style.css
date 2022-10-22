@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(45, 46, 46);
+
+}
+
+.container{
+    width: 50%;
+    height: 70vh;
+    border: 3px solid yellow;
+    /* transform: translate(-50%, -50%);
+     */
+     position: relative;
+     /* top:30%;
+      */
+     left:25%;
+     background: url('img/1.jpg') center/cover fixed no-repeat;
+     /* background-size: contain; */
+     margin-top: 7em;
+}
+
+button{
+    position: absolute;
+    top:50%;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 5px 13px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 24px;
+
+}
+.left{
+    left:0;
+}
+.right{
+    right: 0;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
